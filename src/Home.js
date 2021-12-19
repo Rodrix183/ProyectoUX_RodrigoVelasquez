@@ -19,13 +19,7 @@ const Styles = styled.div`
     font-size: calc(10px + 2vmin);
     color: white;
 `;
-/*auth.onAuthStateChanged((user) => {
-    if (user) {
-        <NavigationBar2/>
-    } else {
-        <NavigationBar/>
-    }
-  });*/
+
 //export const Home = () => (
 export function Home(){
     const [email, setEmail] = React.useState('');
@@ -47,7 +41,6 @@ export function Home(){
     }
     function ingresar() {
         auth.signInWithEmailAndPassword(email, password).then(() => handleClick("/lista")).catch(err => console.log(err));
-    //    var user = auth.currentUser;
     };
     return(
     <Styles>

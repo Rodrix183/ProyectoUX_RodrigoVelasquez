@@ -6,9 +6,6 @@ import { NavigationBar } from './components/NavigationBar';
 import { NavigationBar2 } from './components/NavigationBar2';
 import { useFirestoreDocData, useFirestore, useFirestoreCollectionData, useAuth, useUser, auth} from 'reactfire';
 
-//<NavigationBar/>
-
-
 class App extends Component {
   render() {
     return (
@@ -23,5 +20,5 @@ class App extends Component {
     );
   }
 }
-//<Route path="/Muro" component={Muro} />
+
 export default App;
