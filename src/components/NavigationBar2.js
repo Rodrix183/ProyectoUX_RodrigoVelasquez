@@ -6,12 +6,12 @@ import { useFirestoreDocData, useFirestore, useFirestoreCollectionData, useAuth,
 
 const Styles = styled.div`
   .navbar {
-    background-color: #222;
+    background-color: #87bdd8;
   }
   a, .navbar-brand, .navbar-nav .nav-link {
-    color: #bbb;
+    color: black;
     &:hover {
-      color: white;
+      color: black;
     }
   }
 `;
@@ -23,7 +23,7 @@ export function NavigationBar2(){
     return(
         <Styles>
             <Navbar collapseOnSelect fixed='top' expand="lg">
-                <Navbar.Brand>Apuntes app</Navbar.Brand>
+                <Navbar.Brand>R-Notes</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Form className="d-flex">

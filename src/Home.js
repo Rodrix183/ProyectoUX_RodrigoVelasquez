@@ -57,10 +57,10 @@ export function Home(){
             <Form>
                 <Form.Group controlId="formBasicEmail">
                     <Form.Label></Form.Label>
-                    <Form.Control type="email" placeholder="Ingrese email"  value={email} onChange={e => setEmail(e.target.value)}/>
+                    <Form.Control type="email" placeholder="Ingrese su correo electrónico"  value={email} onChange={e => setEmail(e.target.value)}/>
                 </Form.Group>
                 <Form.Group controlId="formBasicPassword">
-                    <Form.Control type="password" placeholder="Contraseña" value={password} onChange={e => setPassword(e.target.value)}/>
+                    <Form.Control type="password" placeholder="Ingrese su Contraseña" value={password} onChange={e => setPassword(e.target.value)}/>
                 </Form.Group>
                
                     <Button onClick={ingresar} >

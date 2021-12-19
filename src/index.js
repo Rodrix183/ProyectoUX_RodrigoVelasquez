@@ -11,13 +11,14 @@ import 'firebase/auth';
 import { FirebaseAppProvider } from 'reactfire';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyArs3q-zCvQBcs2q2qSXrFjbr6PHTsUOso",
-  authDomain: "apuntesapp-c6bae.firebaseapp.com",
-  projectId: "apuntesapp-c6bae",
-  storageBucket: "apuntesapp-c6bae.appspot.com",
-  messagingSenderId: "310641084514",
-  appId: "1:310641084514:web:2ed1386d753b0a2caa693b",
-  measurementId: "G-78M5XN7Q2K"
+  apiKey: "AIzaSyDnbwvDgsh35NE_hUX4Jxv87O4Jp7Ml0rg",
+  authDomain: "proyecto-ux-rodrigo-velasquez.firebaseapp.com",
+  projectId: "proyecto-ux-rodrigo-velasquez",
+  storageBucket: "proyecto-ux-rodrigo-velasquez.appspot.com ",
+  messagingSenderId: "630767055570",
+  appId: "1:630767055570:web:9a76e8d434c28b89f5730b",
+  measurementId: "G-1FE79R2YK6"
+  //databaseURL: "https://proyecto-ux-rodrigo-velasquez-default-rtdb.firebaseio.com",
 };
 
 ReactDOM.render(
