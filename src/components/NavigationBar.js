@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Nav, Navbar, FormControl, Button, Form } from 'react-bootstrap';
 import styled from 'styled-components';
-import { useFirestoreDocData, useFirestore, useFirestoreCollectionData, useAuth, useUser} from 'reactfire';
+import { useFirestoreDocData, useFirestore, useFirestoreCollectionData, useAuth, useUser } from 'reactfire';
 
 const Styles = styled.div`
   .navbar {
@@ -14,16 +14,23 @@ const Styles = styled.div`
       color: black;
     }
   }
+  .navbar-brand {
+    font-weight: bold;
+  } 
+  #icono{
+    width : 20px;
+  }
 `;
 
 export const NavigationBar = () => (
   <Styles>
     <Navbar collapseOnSelect fixed='top' expand="lg">
+      <img id = "icono" src="imgs/icon-notes.png" />
       <Navbar.Brand>R-Notes</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
-        </Nav> 
+        </Nav>
       </Navbar.Collapse>
     </Navbar>
   </Styles >

@@ -67,7 +67,7 @@ export default class Post extends Component {
 
             <Form.Group controlId="formBasicPassword">
               <Form.Control as="textarea" name="description" rows={3} value={this.state.description}
-                  onChange={this.handleInputChange} placeholder="Descripcion" />
+                  onChange={this.handleInputChange} placeholder="Descripción" />
             </Form.Group>
             <Button type="submit">
               publicar

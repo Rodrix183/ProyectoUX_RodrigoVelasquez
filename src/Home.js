@@ -53,23 +53,25 @@ export function Home(){
             <h1>
                 x
             </h1>
-            <Card style={{ width: '20rem' }}>
+            <Card style={{ width: '50rem' , height : '30rem'}}>
             <Form>
+                
                 <Form.Group controlId="formBasicEmail">
                     <Form.Label></Form.Label>
                     <Form.Control type="email" placeholder="Ingrese su correo electrónico"  value={email} onChange={e => setEmail(e.target.value)}/>
                 </Form.Group>
+                <br></br>
                 <Form.Group controlId="formBasicPassword">
-                    <Form.Control type="password" placeholder="Ingrese su Contraseña" value={password} onChange={e => setPassword(e.target.value)}/>
+                    <Form.Control type="password" placeholder="Ingrese su contraseña" value={password} onChange={e => setPassword(e.target.value)}/>
                 </Form.Group>
-               
-                    <Button onClick={ingresar} >
+                <br></br>   
+                    <Button style={{width : '40rem'}} onClick={ingresar} >
                         Ingresar
                     </Button>
- 
                 <h1>
                 </h1>
-                <Button onClick={registrar}>
+                <br></br>
+                <Button style={{width : '40rem'}} onClick={registrar}>
                     Registrar
                 </Button>
                 <h1></h1>
