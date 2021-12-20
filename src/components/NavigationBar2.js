@@ -34,7 +34,7 @@ export function NavigationBar2() {
           <Form className="d-flex">
             <FormControl
               type="search"
-              placeholder="Buscar apunte"
+              placeholder="Buscar nota"
               className="mr-2"
               aria-label="Search"
             />

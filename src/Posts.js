@@ -14,6 +14,7 @@ const Styles = styled.div`
     justify-content: flex-start;
     font-size: calc(10px + 2vmin);
     color: black;
+    background-color: rgb(154, 204, 204);
 `;
 
 export default class Post extends Component {
@@ -60,7 +61,7 @@ export default class Post extends Component {
           <h1></h1>
           <Form onSubmit={this.handleSubmit}>
             <Form.Group controlId="formBasicEmail">
-              <Form.Label>Agregar nuevo apunte</Form.Label>
+              <Form.Label>Agregar nota</Form.Label>
               <Form.Control type="input" name="title" value={this.state.title}
                   onChange={this.handleInputChange} placeholder="Titulo" />
             </Form.Group>
@@ -70,7 +71,7 @@ export default class Post extends Component {
                   onChange={this.handleInputChange} placeholder="Descripción" />
             </Form.Group>
             <Button type="submit">
-              publicar
+              Publicar
             </Button>
             <h1></h1>
           </Form>

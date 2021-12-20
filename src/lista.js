@@ -59,7 +59,7 @@ export default class Lista extends Component {
         <div className="conteiner d-flex justify-content-center">
           <div className="row">
             <div className="card">
-              <span className="card-title">Apuntes creados</span>
+              <span className="card-title">Listado de notas</span>
               {apuntes}
             </div>
           </div>

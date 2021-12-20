@@ -54,7 +54,7 @@ export function Home() {
         limpiar();
     }
 
-    function limpiar(){
+    function limpiar() {
         setEmail("");
         setPassword("");
     }
@@ -67,8 +67,11 @@ export function Home() {
                     x
 
                 </h1>
-                <h1>
-                    x
+                <h1><em>
+                    Rodrix Notes
+                    <br></br>
+                    Apunta tu futuro
+                </em>
                 </h1>
                 <Card style={{ width: '50rem', height: '30rem' }}>
                     <Form>
