@@ -42,6 +42,12 @@ export function Home(){
     function ingresar() {
         auth.signInWithEmailAndPassword(email, password).then(() => handleClick("/lista")).catch(err => console.log(err));
     };
+
+    function notificacionRegistro(){
+        console.log('BUENAS');
+        
+    }
+
     return(
     <Styles>
         <div>
@@ -71,7 +77,7 @@ export function Home(){
                 <h1>
                 </h1>
                 <br></br>
-                <Button style={{width : '40rem'}} onClick={registrar}>
+                <Button style={{width : '40rem'}} onClick={registrar , notificacionRegistro}>
                     Registrar
                 </Button>
                 <h1></h1>
